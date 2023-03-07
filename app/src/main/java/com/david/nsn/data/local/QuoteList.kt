@@ -1,4 +1,4 @@
-package com.david.nsn.ui
+package com.david.nsn.data.local
 
 data class QuoteList(
     val count: Int,
