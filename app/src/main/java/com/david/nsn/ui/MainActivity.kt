@@ -43,7 +43,7 @@ class MainActivity : AppCompatActivity() {
             val result = quotesApi.getQuotes()
             if (result != null)
             // Checking the results
-                Log.d("ayush: ", result.body().toString())
+                Log.d("response: ", result.body().toString())
         }
     }
 }
